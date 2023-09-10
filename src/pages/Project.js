@@ -26,7 +26,7 @@ const projectInfo = [
   {
     id: "1",
     link: "http://www.choi-lee.com/",
-    image: "../img/port01.jpg",
+    image: "img/port01.jpg",
     title: "최앤이치과 리뉴얼",
     category: "PC & MOBILE",
     text: "메인페이지 및 서브페이지 작업",
@@ -35,7 +35,7 @@ const projectInfo = [
   {
     id: "2",
     link: "https://www.philippineair.co.kr/",
-    image: "../img/port02.jpg",
+    image: "img/port02.jpg",
     title: "필리핀 항공 리뉴얼",
     category: "PC & MOBILE",
     text: "메인 페이지 및 서브 페이지 작업",
@@ -44,7 +44,7 @@ const projectInfo = [
   {
     id: "3",
     link: "https://byulstar.com/",
-    image: "../img/port03.jpg",
+    image: "img/port03.jpg",
     title: "별 성형외과",
     category: "PC",
     time: "2016.9 ~ 2016.10",
@@ -62,7 +62,7 @@ const projectInfo = [
   {
     id: "5",
     link: "https://sohonara.mysoho.com/",
-    image: "../img/port07.jpg",
+    image: "img/port07.jpg",
     title: "마이소호 쇼핑몰 디자인 템플릿",
     category: "MOBILE",
     text: "마이소호 쇼핑몰 솔루션의 기본 쇼핑몰 템플릿 예시 입니다.",
@@ -70,7 +70,7 @@ const projectInfo = [
   {
     id: "6",
     link: "https://admin.mysoho.com/adm/main/dashboard",
-    image: "../img/port04.jpg",
+    image: "img/port04.jpg",
     title: "마이소호 관리자",
     category: "PC & MOBILE",
     text: "마이소호 솔루션의 관리자 사이트 입니다. 전체 페이지 제작 및 리뉴얼 유지 보수 등을 하였습니다.",
@@ -88,7 +88,7 @@ const projectInfo = [
   {
     id: "8",
     link: "https://github.com/udemy-project-camp-team2/homepage-system-team-2",
-    image: "../img/port08.jpg",
+    image: "img/port08.jpg",
     title: "웅진씽크빅 홈페이지 관리",
     category: "PC",
     text: "리액트 리덕스를 사용하여 웅진씽크빅 홈페이지 페이지를 관리 할 수 있는 시스템을 개발했던 팀 프로젝트입니다. ",
@@ -106,7 +106,7 @@ const projectInfo = [
   {
     id: "10",
     link: "https://github.com/definitely92/todolist",
-    image: "../img/todoList.gif",
+    image: "img/todoList.gif",
     title: "todoList",
     category: "PC",
     text: "리액트로 만든 간단한 할일 목록 추가 및 삭제 가능한 투두리스트입니다.  ",
@@ -115,7 +115,7 @@ const projectInfo = [
   {
     id: "11",
     link: "https://github.com/definitely92/blog",
-    image: "../img/blog.gif",
+    image: "img/blog.gif",
     title: "블로그",
     category: "PC",
     text: "리액트로 만든 간단한 할일 글 추가 및 삭제 가능한 블로그형식 투두리스트입니다. 모달창을 활용하여 수정이 가능하며 검색 및 리스트 정렬이 가능합니다.  ",
