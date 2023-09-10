@@ -53,7 +53,7 @@ const projectInfo = [
   {
     id: "4",
     link: "https://www.mysoho.com/index.html",
-    image: "../img/port06.jpg",
+    image: "img/port06.jpg",
     title: "마이소호 홈페이지",
     category: "PC & MOBILE",
     text: "쇼핑몰 솔루션 마이소로 홈페이지 제작 및 유지 보수를 하였습니다",
@@ -97,7 +97,7 @@ const projectInfo = [
   {
     id: "9",
     link: "https://github.com/udemy-project-camp-team2/react-team-project-22",
-    image: "../img/movieapp1.gif",
+    image: "img/movieapp1.gif",
     title: "무비리스트",
     category: "PC",
     text: "영화 API를 활용하여 리액트로 만든 영화 리스트 입니다. ",
