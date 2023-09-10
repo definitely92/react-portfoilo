@@ -5,19 +5,19 @@ const Menu = () => {
     <nav className="overlayMenu">
       <ul>
         <li>
-          <Link to={process.env.PUBLIC_URL + "/about"}>About</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to={process.env.PUBLIC_URL + "/project"}>Project</Link>
+          <Link to="/project">Project</Link>
         </li>
         <li>
-          <Link to={process.env.PUBLIC_URL + "/skill"}>Skill</Link>
+          <Link to="/skill">Skill</Link>
         </li>
         {/* <li>
           <Link to="/script">Script</Link>
         </li> */}
         <li>
-          <Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
