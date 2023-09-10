@@ -33,7 +33,7 @@ const Header = ({ info }) => {
       </Sidebar>
       <div className="header__inner">
         <div className="header__inner__port">
-          <Link to={process.env.PUBLIC_URL + "/"}>Home</Link>
+          <Link to="/">Home</Link>
         </div>
         <div className="header__inner__menu">
           <button onClick={() => handleMenuOpen()} className="menuBtn">
@@ -41,7 +41,7 @@ const Header = ({ info }) => {
           </button>
         </div>
       </div>
-      <div className="header__nav demo">
+      {/* <div className="header__nav demo">
         <ul>
           <li>
             <Link to="/">회원가입</Link>
@@ -53,7 +53,7 @@ const Header = ({ info }) => {
             <Link to="/">게시판</Link>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="header__info" id={info}>
         <div>
           <h4>email</h4>
