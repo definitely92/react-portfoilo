@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.16e4a979.css",
-    "main.js": "/react-portfolio/static/js/main.b143974d.js",
-    "index.html": "/react-portfolio/index.html",
-    "main.16e4a979.css.map": "/react-portfolio/static/css/main.16e4a979.css.map",
-    "main.b143974d.js.map": "/react-portfolio/static/js/main.b143974d.js.map"
+    "main.css": "https://definitely92.github.io/react-portfolio/static/css/main.16e4a979.css",
+    "main.js": "https://definitely92.github.io/react-portfolio/static/js/main.f21b6ea1.js",
+    "index.html": "https://definitely92.github.io/react-portfolio/index.html",
+    "main.16e4a979.css.map": "https://definitely92.github.io/react-portfolio/static/css/main.16e4a979.css.map",
+    "main.f21b6ea1.js.map": "https://definitely92.github.io/react-portfolio/static/js/main.f21b6ea1.js.map"
   },
   "entrypoints": [
     "static/css/main.16e4a979.css",
-    "static/js/main.b143974d.js"
+    "static/js/main.f21b6ea1.js"
   ]
 }
