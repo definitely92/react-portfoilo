@@ -10,16 +10,28 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route exact path="/" element={<Main />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/reference" element={<Reference />} />
-        <Route path="/reference-detail" element={<ReferDetail />} />
-        <Route path="/script" element={<Script />} />
-        <Route path="/skill" element={<Skill />} />
-        <Route path="/project" element={<Project />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route exact path={process.env.PUBLIC_URL + "/"} element={<Main />} />
+        <Route path={process.env.PUBLIC_URL + "/about"} element={<About />} />
+        <Route
+          path={process.env.PUBLIC_URL + "/reference"}
+          element={<Reference />}
+        />
+        <Route
+          path={process.env.PUBLIC_URL + "/reference-detail"}
+          element={<ReferDetail />}
+        />
+        <Route path={process.env.PUBLIC_URL + "/script"} element={<Script />} />
+        <Route path={process.env.PUBLIC_URL + "/skill"} element={<Skill />} />
+        <Route
+          path={process.env.PUBLIC_URL + "/project"}
+          element={<Project />}
+        />
+        <Route
+          path={process.env.PUBLIC_URL + "/contact"}
+          element={<Contact />}
+        />
       </Routes>
     </Router>
   );

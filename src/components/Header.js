@@ -33,7 +33,7 @@ const Header = ({ info }) => {
       </Sidebar>
       <div className="header__inner">
         <div className="header__inner__port">
-          <Link to="/">Home</Link>
+          <Link to={process.env.PUBLIC_URL + "/"}>Home</Link>
         </div>
         <div className="header__inner__menu">
           <button onClick={() => handleMenuOpen()} className="menuBtn">
