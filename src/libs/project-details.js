@@ -89,7 +89,8 @@ export const detailInfo = [
       "링크 하나로 판매자가 등록한 판매 일정과 상품과 관련된 링크(주문서 등)를 보여줄 수 있는 마이링크 관련된 신규 페이지 제작 퍼블리싱을 담당했습니다.",
     desc2:
       "반응형으로 진행하였으며 fullcalendar 라이브러리를 활용하여 일정을 관리하는 캘린더 기능을 추가하였습니다.",
-    source: "https://sohonara.mysoho.com/",
+    source:
+      "https://sohonara.mysoho.com/mylink?_gl=1*ni28xi*_ga*NzQ1NjU2NzA3LjE2OTQxOTczNzE.*_ga_35XXRSZZQS*MTY5NDU5OTQ3OC45LjEuMTY5NDU5OTQ5MS40Ny4wLjA.",
     techStack1: "Html",
     techStack2: "css",
     techStack3: "Javascript",
