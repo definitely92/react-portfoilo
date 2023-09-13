@@ -14,7 +14,10 @@ const Menu = () => {
           <Link to="/skill">Skill</Link>
         </li>
         {/* <li>
-          <Link to="/script">Script</Link>
+          <Link to="/works">Works</Link>
+        </li> */}
+        {/* <li>
+          <Link to="/reference">Reference</Link>
         </li> */}
         <li>
           <Link to="/contact">Contact</Link>

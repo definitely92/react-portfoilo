@@ -9,11 +9,10 @@
   .main__cont {
     font-family: "Saol Display Regular";
     color: #fff;
-    font-size: 10vw;
+    font-size: 8vw;
     line-height: 0.85;
     letter-spacing: -0.0275em;
     transition: all 3s;
-    text-transform: uppercases;
   }
 }
 
@@ -129,7 +128,7 @@
 }
 .main__cont__title {
   color: #fff;
-  font-size: 10vw;
+  font-size: 8vw;
   line-height: 0.85;
   letter-spacing: -0.0275em;
   transition: all 2s;
@@ -199,73 +198,88 @@
   font-size: 16px;
 }
 
-/* referCont */
-#referCont {
+/* detailCont */
+#datailCont {
   background-color: #f0eeeb;
 }
 
-.refer-cont {
-  padding-bottom: 200px;
-}
+.detail-cont {
+  padding: 0 30px 200px;
 
-.refer-cont .refer-title li {
-  display: inline;
-  font-family: "Rajdhani";
-}
+  .heading-wrap {
+    margin: 6px 0px 0px;
+    font-weight: 600;
+    font-size: 32px;
+    position: relative;
+    button {
+      font-size: 2rem;
+      border: none;
+      position: absolute;
+      top: -70px;
+    }
+  }
 
-.refer-cont .refer-title li a {
-  font-size: 1.2rem;
-  display: inline-block;
-  padding: 0.5rem 2rem;
-  border: 1px solid #222;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-  margin-right: 10px;
-}
+  .meta-data {
+    display: flex;
+    font-size: 13px;
 
-.refer-cont .refer-title li.active a {
-  background: #000;
-  color: #fff;
-}
+    li {
+      margin-right: 20px;
+      line-height: 16px;
+      svg {
+        margin-right: 5px;
+        vertical-align: sub;
+      }
+    }
+  }
 
-.refer-cont .refer-table {
-  border-bottom: 2px solid #000;
-  margin-top: 1.2rem;
-}
+  .tech {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -2px;
+    margin-bottom: 10px;
+    padding-top: 3px;
 
-.refer-cont .refer-table li {
-  margin: 0;
-  list-style: none;
-  border-top: 1px solid #000;
-  position: relative;
-  transition: all 0.3s;
-}
+    li {
+      padding: 4px;
+      margin: 0px 2px 5px;
+      border: 1px solid #000;
+      border-radius: 2px;
+      font-size: 13px;
+      line-height: 1;
+    }
+  }
 
-.refer-cont .refer-table li:hover {
-  background: rgba(0, 0, 0, 0.081);
-}
+  .body-wrap {
+    p {
+      white-space: pre-line;
+    }
+    .link {
+      margin-top: 15px;
+      a {
+        margin-bottom: 2px;
+        display: inline-block;
+        border-radius: 10px;
 
-.refer-cont .refer-table li span {
-  display: inline-block;
-  padding: 25px 10px;
-  font-size: 14px;
-  font-family: "S-CoreDream-3Light";
-  box-sizing: border-box;
-}
-
-.refer-cont .refer-table li span.alpha {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.refer-cont .refer-table li span.attr {
-  padding-left: 10%;
-  width: 35%;
-}
-
-.refer-cont .refer-table li span.desc {
-  width: 64.5%;
+        background: none;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px 10px;
+        svg {
+          margin-right: 5px;
+          vertical-align: sub;
+        }
+        &:hover {
+          background: #000;
+          color: #fff;
+        }
+      }
+    }
+    ul li {
+      margin: 20px 0px 0px;
+      padding-bottom: 20px;
+    }
+  }
 }
 
 /* youtubeCont */
@@ -355,64 +369,6 @@
   display: block;
 }
 
-/* scriptCont */
-#scriptCont {
-  background-color: #f0eeeb;
-}
-
-.script-cont {
-  padding-bottom: 0px;
-}
-
-.script {
-  padding-bottom: 200px;
-}
-
-.script h2 {
-  font-family: "Chosunilbo_myungjo";
-  font-size: 40px;
-  padding-bottom: 10px;
-}
-
-.script .view {
-  width: 100%;
-}
-
-.script .desc {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.script .desc h3 {
-  flex: 0 0 100%;
-  font-size: 30px;
-  line-height: 2em;
-  margin-top: 20px;
-  font-family: "Chosunilbo_myungjo";
-}
-
-.script .desc > div {
-  flex: 0 0 31%;
-  font-family: "Chosunilbo_myungjo";
-}
-
-.script .desc > div.num span {
-  border: 1px solid #9b9b9b;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 48px;
-  margin: 0px 0px 10px 7px;
-  color: #030406;
-}
-
-.script .desc > div.num span.active {
-  border-style: dashed;
-}
-
 /* contactCont */
 #contactCont {
   height: 100vh;
@@ -497,41 +453,72 @@
   font-family: "Rajdhani";
 }
 // script-cont
-#scriptCont {
+#worksCont {
   background-color: #f0eeeb;
+  padding: 0 2rem;
 }
-.script__cont {
-  padding-bottom: 300px;
+.works__cont {
+  padding-bottom: 100px;
 }
-.script__cont__wrap {
-  margin-bottom: 150px;
-}
-.script__cont__img {
-  height: 680px;
+.works__cont__wrap {
+  margin-bottom: 200px;
   overflow: hidden;
 }
-.script__cont__img iframe {
+.works__cont__img {
+  overflow: hidden;
+  text-align: left;
+  img {
+    width: 90%;
+    margin-top: 30px;
+  }
+}
+.works__cont__img iframe {
   width: 100%;
   height: 100%;
   border: 0;
   background: #000;
 }
-.script__cont__txt {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
+.works__cont__txt {
   h2 {
-    flex: 0 0 100%;
-    font-size: 30px;
-    font-family: "Chosunilbo_myungjo";
+    font-size: 35px;
     padding: 30px 0 30px;
+    font-weight: 700;
   }
   p {
-    flex: 0 0 32%;
+    margin-bottom: 15px;
     font-size: 18px;
     font-family: "Chosunilbo_myungjo";
-    text-align: justify;
+  }
+}
+.tech_tit {
+  margin-top: 2%;
+  font-weight: 500;
+}
+.tech {
+  margin-top: 10px;
+  display: flex;
+  gap: 0.5rem;
+  li {
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid #000;
+  }
+}
+
+.works_btn {
+  display: flex;
+  margin-top: 20px;
+  width: 10%;
+  line-height: 1.5;
+  height: 30px;
+  justify-content: center;
+  float: right;
+  background-color: #eee;
+  border-radius: 10px;
+  &:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
   }
 }
 /* 연락처 페이지
@@ -632,7 +619,13 @@
 }
 
 .about-cont {
-  padding: 0 30px;
+  padding: 0 30px 200px;
+}
+
+@media screen and (max-width: 765px) {
+  .about-cont {
+    padding: 0 30px 100px;
+  }
 }
 
 .aboutTitle {
@@ -643,9 +636,15 @@
 }
 
 .skillCont {
-  padding: 0 30px;
+  padding: 0 0 200px;
   display: flex;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .skillCont {
+    padding: 0 30px 100px;
+  }
 }
 
 .skill-list {

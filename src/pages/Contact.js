@@ -10,6 +10,7 @@ const ContactText = styled.div`
   transition: all 0.2s;
   font-family: "Malgun Gothic";
   text-align: center;
+  letter-spacing: normal;
 `;
 
 const InfoList = styled.div`

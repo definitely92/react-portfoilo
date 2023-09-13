@@ -1,3 +1,12 @@
+.effect__start {
+  opacity: 0;
+}
+
+.effect__end {
+  opacity: 1;
+  transition: all 0.6s;
+}
+
 /* container : 공통 */
 .container {
   width: 1300px;
@@ -295,7 +304,7 @@
 
 .header__info > div {
   text-align: center;
-  padding: 15px;
+  padding: 30px;
 }
 
 .header__info > div h4,
@@ -308,11 +317,11 @@
   font-family: "Rajdhani", "Chosunilbo_myungjo";
   font-weight: 500;
   opacity: 0.6;
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 .header__info > div:nth-child(1) {
-  flex: 1 1 25%;
+  flex: 1 1 35%;
   border-right: 1px solid #2e2e30;
 }
 
@@ -322,7 +331,7 @@
 }
 
 .header__info > div:nth-child(3) {
-  flex: 1 1 55%;
+  flex: 1 1 45%;
 }
 
 .header__info > div:nth-child(3) li {
@@ -389,22 +398,19 @@
   pointer-events: none;
 }
 
-/* 모든 페이지의 푸터
-  #footer
-  .footer__inner
-  */
 #footer {
   background-color: #000;
-  height: 100vh;
+  height: 80vh;
 }
 
 .footer__inner {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #fff;
+  transition: all 0.3s;
 }
 
 .footer__inner p {
@@ -415,7 +421,7 @@
 }
 
 .footer__inner h3 {
-  font-size: 80px;
+  font-size: 8vw;
   line-height: 1;
   text-transform: uppercase;
   margin-bottom: 5rem;
@@ -431,4 +437,22 @@
   font-weight: 400;
   text-transform: uppercase;
   font-family: "Rajdhani", "Chosunilbo_myungjo";
+}
+
+@media screen and (max-width: 640px) {
+  .header__info > div {
+    padding: 0 5px;
+  }
+
+  .header__info > div:nth-child(1) {
+    flex: 1 1 40%;
+  }
+
+  .header__info > div:nth-child(2) {
+    flex: 1 1 15%;
+  }
+
+  .header__info > div:nth-child(3) {
+    flex: 1 1 45%;
+  }
 }

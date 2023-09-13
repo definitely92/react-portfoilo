@@ -6,14 +6,6 @@ import { gsap } from "gsap";
 const Main = () => {
   const [isLoading, setIsLoading] = useState(true);
 
-  // const getSite = useCallback(() => {
-  //   setTimeout(() => {
-  //     console.log("두번째 시작");
-  //     setIsLoading(false);
-  //     mainStart();
-  //   }, 1000);
-  // }, []);
-
   const mainStart = () => {
     gsap.to(".main__cont__title > div:nth-child(1)", {
       duration: 0.4,

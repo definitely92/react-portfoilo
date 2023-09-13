@@ -4,7 +4,6 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 import WrapTitle from "../components/WrapTitle";
-import YouVideo from "../components/YouVideo"; // YouVideo 컴포넌트를 import합니다.
 import IconHtml5 from "../assets/images/Html";
 import IconGithub from "../assets/images/Git";
 import IconReact from "../assets/images/React";
@@ -27,6 +26,7 @@ const SkillData = [
     image: <IconJquery />,
     desc1: "다양한 속성과 메소드를 능숙하게 사용이 가능합니다.",
     desc2: "jQuery UI 라이브러리를 활용할 수 있습니다.",
+    desc3: "css 조작, 이벤트, 효과 및 애니메이션 기능을 구현 할 수 있습니다.",
   },
   {
     id: 3,
@@ -89,12 +89,6 @@ const Skill = () => {
                   desc3={skill.desc3}
                 />
               ))}
-              <div className="youtube-search">
-                {/* YouVideo 컴포넌트를 Outlet으로 감싸서 라우트를 처리합니다. */}
-                <Outlet>
-                  <YouVideo />
-                </Outlet>
-              </div>
             </div>
           </div>
         </section>
