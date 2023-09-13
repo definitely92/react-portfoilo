@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import propTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { projectLists } from "../libs/poject-lists";
-import useScrollFadeIn from "../hooks/useScrollFadeIn";
 
 const projectInfo = projectLists;
 
@@ -16,7 +15,6 @@ const Port = ({ link, image, title, category, text, time }) => {
         <Link to={link}>
           <img src={image} alt={title} />
         </Link>
-        {/* <a href={link} target="_blank"></a> */}
       </figure>
       <div className="port__item__txt">
         <h2>{title}</h2>
