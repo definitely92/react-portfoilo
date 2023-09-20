@@ -152,7 +152,7 @@ export const detailInfo = [
   },
   {
     id: 11,
-    image1: "/react-portfolio/img/todoList.gif",
+    image1: "/react-portfolio/img/todolist.gif",
     image2: "",
     title: "투두리스트",
     desc1:

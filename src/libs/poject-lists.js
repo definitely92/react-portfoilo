@@ -100,7 +100,7 @@ export const projectLists = [
   {
     id: "12",
     link: "/project_detail/11",
-    image: "/react-portfolio/img/todoList.gif",
+    image: "/react-portfolio/img/todolist.gif",
     title: "todoList",
     category: "PC",
     text: "리액트로 만든 간단한 할일 목록 추가 및 삭제 가능한 투두리스트입니다.  ",
