@@ -49,7 +49,7 @@ src
 <div align="center">
 <img src="https://img.shields.io/badge/Eslint-8.45.0-4B32C3?style=plastic&logo=Eslint&logoColor=4B32C3" />
 <img src="https://img.shields.io/badge/Prettier-3.0.0-F7B93E?style=plastic&logo=Prettier&logoColor=#F7B93E" />
-<img src="https://img.shields.io/badge/SVG-6.4.0-528DD7?style=plastic&logo=Font Awesome&logoColor=528DD7" />
+<img src="https://img.shields.io/badge/SVG-528DD7?style=plastic&logo=Font Awesome&logoColor=528DD7" />
 </div>
 
 <br>
