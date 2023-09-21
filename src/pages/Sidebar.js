@@ -8,8 +8,6 @@ const Sidebar = ({
   xPosition,
   children,
 }) => {
-  console.log(width);
-  console.log(xPosition);
   // 사이드바 외부 클릭시 닫히는 함수
   const handleClose = () => {
     setxPosition(-100);

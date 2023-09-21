@@ -16,8 +16,6 @@ const ProjectDetail = ({ data }) => {
     return x.id == id;
   });
 
-  console.log(findProject);
-
   return (
     <div id="wrap" className="light">
       <Header />

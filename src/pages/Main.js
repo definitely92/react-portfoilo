@@ -46,14 +46,12 @@ const Main = () => {
   };
 
   const getSite = () => {
-    console.log("두번째 시작");
     setIsLoading(false);
     mainStart();
   };
 
   useEffect(() => {
     setTimeout(() => {
-      console.log("첫번째 시작");
       getSite();
     }, 1000);
   }, [getSite]);
