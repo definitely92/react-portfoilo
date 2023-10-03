@@ -8,11 +8,11 @@ import { projectLists } from "../libs/poject-lists";
 
 const projectInfo = projectLists;
 
-const Port = ({ link, image, title, category, text, time }) => {
+const Port = ({ id, link, image, title, category, text, time }) => {
   return (
     <div className="port__item">
       <figure className="port__item__img">
-        <Link to={link}>
+        <Link to={`/project_detail/${id}`}>
           <img src={image} alt={title} />
         </Link>
       </figure>
@@ -38,7 +38,7 @@ const Project = () => {
               {projectInfo.map((info) => (
                 <Port
                   key={info.id}
-                  link={info.link}
+                  id={info.id}
                   image={info.image}
                   title={info.title}
                   category={info.category}

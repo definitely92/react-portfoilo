@@ -1,6 +1,6 @@
 export const projectLists = [
   {
-    id: "1",
+    id: 1,
     link: "/project_detail/7",
     image: "/react-portfolio/img/port01.jpg",
     title: "최앤이치과 리뉴얼",
@@ -9,7 +9,7 @@ export const projectLists = [
     time: "2017.4 ~ 2017.6",
   },
   {
-    id: "2",
+    id: 2,
     link: "/project_detail/8",
     image: "/react-portfolio/img/port02.jpg",
     title: "필리핀 항공 리뉴얼",
@@ -18,7 +18,7 @@ export const projectLists = [
     time: "2016.9 ~ 2017.3",
   },
   {
-    id: "3",
+    id: 3,
     link: "/project_detail/9",
     image: "/react-portfolio/img/port03.jpg",
     title: "별 성형외과",
@@ -27,7 +27,7 @@ export const projectLists = [
     text: "PC 리뉴얼",
   },
   {
-    id: "4",
+    id: 4,
     link: "/project_detail/3",
     image: "/react-portfolio/img/port06.jpg",
     title: "마이소호 홈페이지",
@@ -36,7 +36,7 @@ export const projectLists = [
     time: "",
   },
   {
-    id: "5",
+    id: 5,
     link: "/project_detail/5",
     image: "/react-portfolio/img/port07.jpg",
     title: "마이소호 상점 디자인 템플릿",
@@ -44,7 +44,7 @@ export const projectLists = [
     text: "마이소호 쇼핑몰 솔루션의 기본 쇼핑몰 템플릿 예시 입니다.",
   },
   {
-    id: "6",
+    id: 6,
     link: "/project_detail/4",
     image: "/react-portfolio/img/port04.jpg",
     title: "마이소호 관리자",
@@ -53,7 +53,7 @@ export const projectLists = [
     time: "",
   },
   {
-    id: "7",
+    id: 7,
     link: "/project_detail/6",
     image: "/react-portfolio/img/mylink.gif",
     title: "마이링크 신규 제작",
@@ -62,7 +62,7 @@ export const projectLists = [
     time: "2021.03 ~ 2021.04",
   },
   {
-    id: "8",
+    id: 8,
     link: "/project_detail/1",
     image: "/react-portfolio/img/makeshop_admin_main.png",
     title: "메이크샵 관리자 운영",
@@ -71,7 +71,7 @@ export const projectLists = [
     time: "2021.05 ~ 2023.05",
   },
   {
-    id: "9",
+    id: 9,
     link: "/project_detail/2",
     image: "/react-portfolio/img/makeshop_shop_default.gif",
     title: "메이크샵 상점 템플릿",
@@ -80,7 +80,7 @@ export const projectLists = [
     time: "2021.05 ~ 2023.05",
   },
   {
-    id: "10",
+    id: 10,
     link: "/project_detail/13",
     image: "/react-portfolio/img/port08.jpg",
     title: "웅진씽크빅 홈페이지 관리",
@@ -89,7 +89,7 @@ export const projectLists = [
     time: "2023.07 ~ 2023.08",
   },
   {
-    id: "11",
+    id: 11,
     link: "/project_detail/10",
     image: "/react-portfolio/img/movieapp1.gif",
     title: "무비리스트",
@@ -98,7 +98,7 @@ export const projectLists = [
     time: "2023.06 ~ 2023.07",
   },
   {
-    id: "12",
+    id: 12,
     link: "/project_detail/11",
     image: "/react-portfolio/img/todolist.gif",
     title: "todoList",
@@ -107,12 +107,21 @@ export const projectLists = [
     time: "2023.05 ~ 2023.05",
   },
   {
-    id: "13",
+    id: 13,
     link: "/project_detail/12",
     image: "/react-portfolio/img/blog.gif",
     title: "블로그",
     category: "PC",
     text: "리액트로 만든 간단한 할일 글 추가 및 삭제 가능한 블로그형식 투두리스트입니다. 모달창을 활용하여 수정이 가능하며 검색 및 리스트 정렬이 가능합니다.  ",
     time: "2023.05 ~ 2023.05",
+  },
+  {
+    id: 14,
+    link: "/project_detail/14",
+    image: "/react-portfolio/img/lush_shop_1.gif",
+    title: "러쉬 온라인 스토어",
+    category: "반응형",
+    text: "리액트 라이브러리를 사용하여 러쉬 온라인 스토어를 클론 코딩 하였습니다. 반응형 메인 페이지와 모바일 환경의 상세페이지와 장바구니 페이지를 작업하였습니다.",
+    time: "2023.10 ~ 2023.10",
   },
 ];
